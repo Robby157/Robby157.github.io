@@ -18,7 +18,12 @@
 			height:300px;
 			margin:auto;
 			background-image:url("pizza3.jpg");
-			box-shadow: 5px 10px 10px black;
+			animation:pizzaspin 2s infinite linear;
+		}
+		
+		@keyframes pizzaspin {
+			from {transform: rotate(0deg);}
+			to	{transform: rotate(360deg);}
 		}
 	</style>
 	<body>
