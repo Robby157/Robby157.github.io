@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Mr. Susman's personal website.</title>
-		<link rel="shortcut icon" href="favicon.ico">
 	</head>
 
 	<style>
@@ -15,6 +14,7 @@
 		border:10px dashed blue;
 		position:relative;
 		top:100px;
+		border-radius:30px;
 	}
 	
 	h2 {
@@ -56,7 +56,6 @@
 	.about-susman-pic {
 		margin:auto;
 		width:400px;
-		border:5px ridge purple;
 		padding:6px;
 	}
 	
@@ -70,6 +69,7 @@
 		width:50%;
 		margin:auto;
 		border:2px ridge black;
+		border-radius:5px;
 	}
 	
 	.streamers2 {
@@ -84,6 +84,7 @@
 		border:3px solid black;
 		clear:both;
 		margin:auto;
+		border-radius:30px;
 	}
 	
 	#susman-info-area {
@@ -92,6 +93,7 @@
 		margin-right:30px;
 		border:5px groove blue;
 		padding:6px;
+		border-radius:30px;
 	}
 	
 	.cool-stuff {
@@ -113,6 +115,7 @@
 		z-index:1;
 		float:left;
 		margin:6px;
+		border-radius:5px;
 	}
 	
 	#table-of-content-title {
@@ -130,10 +133,11 @@
 		position:fixed;
 		z-index:100;
 		clear:;
+		border-radius:30px;
 	}
 	
 	h4 {
-		text-align:left;
+		text-align:center;
 		size:40px;
 		color:purple;
 		clear:both;
@@ -149,6 +153,7 @@
 		margin-top:6px;
 		position:relative;
 		top:100px;
+		border-radius:30px;
 	}
 	
             .warning {
@@ -156,10 +161,13 @@
                 background-color: red;
                 color: white;
 				clear:both;
+				border-radius:30px;
             }
             
             p.warning {
                 border: 5px solid orange;
+				border-radius:30px;
+				text-align:center;
             }
 			
 	#susman-summary {
@@ -168,7 +176,6 @@
 	}
 	
 	#skeledance {
-		border:3px ridge pink;
 		height:auto;
 		width:auto;
 		margin:auto;
@@ -186,6 +193,23 @@
 		height:auto;
 		text-decoration:none;
 		font-size:8px;
+		border-radius:30px;
+	}
+	.suspic {
+		border:5px ridge purple;
+		border-radius:10px;
+	
+	}
+	.tabledat {
+		 border:2px solid black;
+	}
+	.tabledat2 {
+		 border:2px solid grey;
+	}
+	
+	.redacted {
+		background-color:black;
+		color:white;
 	}
 	
 	
@@ -216,7 +240,7 @@
 	<h1>Mr.Susman's personal webzone for everything sus!</h1>
 	
 	<div id="skeledance">
-	<img src="1.gif" alt="a gif of Skeletons dancing at a rave" width="49%"><img src="1.gif" alt="a gif of Skeletons dancing at a rave" width="49%">
+	<img src="1.gif" alt="a gif of Skeletons dancing at a rave" width="49%"style="border:3px ridge pink; margin:auto; border-radius:10px;"><img src="1.gif" alt="a gif of Skeletons dancing at a rave" width="49%"style="border:3px ridge pink; margin:auto; border-radius:10px;">
 	</div>
 	
 	<div id="table-of-content">
@@ -247,9 +271,9 @@
 
 
 	<ul id="server-list">
-		<li>Minecraft Server: [redacted]</li>
-		<li>BBS <span class="cool-stuff">(Bulletin Board System)</span>: [redacted]</li>
-		<li>file server: [redacted]</li>
+		<li>Minecraft Server: <span class="redacted">[redacted]</span></li>
+		<li>BBS <span class="cool-stuff">(Bulletin Board System)</span>: <span class="redacted">[redacted]</span></li>
+		<li>file server: <span class="redacted">[redacted]</span></li>
 	</ul>
 	</div>
 	<br>
@@ -259,19 +283,23 @@
 
 		<p class="about-susman">Mr.Susman is a proud American!</p>
 <div class="about-susman-pic">
-			<img src="USA.jpg" width="400" alt="The American flag waving in the wind">
+			<img class="suspic" src="USA.jpg" width="400" alt="The American flag waving in the wind">
 </div>
 		<p class="about-susman">Mr.Susman also likes <span class="cool-stuff">"America Jr."</span>!</p>
 <div class="about-susman-pic">
-			<img src="canada-flag-animated-gif-67.gif" alt="a gif of the Canadian flag waving" width="400">
+			<img class="suspic" src="canada-flag-animated-gif-67.gif" alt="a gif of the Canadian flag waving" width="400">
 </div>
 		<p class="about-susman">Mr.Susman does <span class="cool-stuff"><em><strong>NOT</em></strong></span> like Society.</p>
 <div class="about-susman-pic">
-			<img src="Society.jpg" width="400" alt="The Joker from DC Comic's Batman, with text above that reads: We live in a society">
+			<img class="suspic" src="Society.jpg" width="400" alt="The Joker from DC Comic's Batman, with text above that reads: We live in a society">
 </div>
-		<p class="about-susman">He likes <a href="https://vinesauce.fandom.com/wiki/Vinny">Vinny Vinesauce</a></p>
+		<p class="about-susman">He likes <a href="https://vinesauce.fandom.com/wiki/Vinny">Vinny Vinesauce</a>!</p>
 <div class="about-susman-pic">
-			<img width="400" src="Binyot.png">
+			<img class="suspic" width="400" src="Binyot.png" alt="a picture of binyot">
+</div>
+		<p class="about-susman">He loves <a href="https://www.twitch.tv/vargskelethor">Uncle Jobel</a>!</p>
+<div class="about-susman-pic">
+			<img class="suspic" width="400" src="Vinesauce_joel.png" alt="a picture of a very cool guy">
 </div>
 </div>
 
@@ -280,37 +308,42 @@
 	<table id="table-streamers">
 		<thead>
 			<tr>
-				
-				<th>Streamer</th>
-				<th>Cool?</th>
-				<th>Streams Minecraft?</th>
-				<th>Sus?</th>
+				<th class="tabledat">Streamer</th>
+				<th class="tabledat2">Cool?</th>
+				<th class="tabledat">Streams Minecraft?</th>
+				<th class="tabledat2">Sus?</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Vinny Vinesauce</td>
-				<td>Yes.</td>
-				<td>Streamed once</td>
-				<td>No.</td>
+				<td class="tabledat">Vinny Vinesauce</td>
+				<td class="tabledat2">Yes.</td>
+				<td class="tabledat">Had a whole series</td>
+				<td class="tabledat2">No.</td>
 			</tr>
 			<tr>
-				<td>Vargskelethor Joel</td>
-				<td><strong>Very.</strong></td>
-				<td>One-off</td>
-				<td>Not at all.</td>
+				<td class="tabledat">Vargskelethor Joel</td>
+				<td class="tabledat2"><span class="cool-stuff"><em><strong>VERY</em></strong></span></td>
+				<td class="tabledat">One-off</td>
+				<td class="tabledat2">Not at all.</td>
 			</tr>
 			<tr>
-				<td>Jerma985</td>
-				<td>No.</td>
-				<td>Hello everybody and<br> welcome to Jermacraft!</td>
-				<td>Yes.</td>
+				<td class="tabledat">Jerma985</td>
+				<td class="tabledat2">No.</td>
+				<td class="tabledat">Hello everybody and<br> welcome to Jermacraft!</td>
+				<td class="tabledat2">Yes.</td>
 			</tr>
 			<tr>
-				<td>XQC</td>
-				<td>G</td>
-				<td>A</td>
-				<td>E</td>
+				<td class="tabledat">XQC</td>
+				<td class="tabledat2">G</td>
+				<td class="tabledat">A</td>
+				<td class="tabledat2">E</td>
+			</tr>
+			<tr>
+				<td class="tabledat">Rev Scarecrow</td>
+				<td class="tabledat2">kinda</td>
+				<td class="tabledat">I think he did one time</td>
+				<td class="tabledat2">nah</td>
 			</tr>
 
 		</tbody>
@@ -318,7 +351,7 @@
 </div>
 
 <div id="footer1">
-	<h4>Susland</h4>
+	<h4 style="font-size:10px;">Susland<br>info and pictures stolen from other sources, Mr.Susman owns basically nothing on this page.</h4>
 </div>
 	</body>
 </html>
